@@ -1,5 +1,7 @@
 `Connectiker` is a concept for building micro-services as a lego architecture, meaning that any component is a building block to fast ship a microservice. Each `Connectiker` component does do one thing only and one thing well.
 
+`Connectiker` is a set of packages that help with building Distributed Systems.
+
 ```
  +------------------+       +-----------+                                   +---------+         +-----------+
  | My MicroService  |   =   | xConnect  | ----- with pluggable addons --->  | xAddons |     +   | xService  |          
@@ -17,4 +19,4 @@
 
 ## xService
 
-`xService` is a framework for distributed system development, everything that is needed to fast start a new project (a server, a client, a message broker,... etc)
+`xService` is a package for building micro-services, everything that is needed to fast start a new project (a server, a client, a message broker,... etc).
